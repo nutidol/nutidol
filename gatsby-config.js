@@ -7,6 +7,13 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`poppins:300,400,500,600,700`],
+        display: "swap",
+      },
+    }
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
