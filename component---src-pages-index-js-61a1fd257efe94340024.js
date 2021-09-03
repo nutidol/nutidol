@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[678],{7704:function(e,t,a){a.r(t);var l=a(7294),n=a(5444),r=a(2788);t.default=function(){return l.createElement("div",null,l.createElement(r.Z,null),l.createElement("div",null,l.createElement("h1",null,"Hi nats, moving to bootstrap!",l.createElement(n.Link,{to:"/page-2"},"Navigate to page2")),l.createElement("h2",null,l.createElement("a",{href:"/nutidol/page-2/"}," go to page 2"))))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-61a1fd257efe94340024.js.map
