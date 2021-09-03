@@ -7,13 +7,6 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [`poppins:300,400,500,600,700`],
-        display: "swap",
-      },
-    }
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -41,5 +34,12 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`poppins:300,400,500,600,700`],
+        display: "swap",
+      },
+    },
   ],
 }
