@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[678],{7704:function(e,t,a){a.r(t);var n=a(7294),l=a(5444),r=a(2788);t.default=function(){return n.createElement("div",null,n.createElement(r.Z,null),n.createElement("div",null,n.createElement("h1",null,"Hi nats, moving to bootstrap!",n.createElement(l.Link,{to:"/page-2"},"Navigate to page2")),n.createElement("h2",null,n.createElement(l.Link,{to:"/page-2"}," go to page 2"))))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-b0a11c27a7f9d9a16f1a.js.map
