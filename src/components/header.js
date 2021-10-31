@@ -1,13 +1,23 @@
 import * as React from "react"
 import { Navbar, Nav, Container } from "react-bootstrap"
+import { Link } from "gatsby"
 
 const Header = () => (
-  <Navbar bg="dark" variant="dark">
-    <Container>
-      <Navbar.Brand href="/">Nat Sae Tang</Navbar.Brand>
+  <Navbar bg="black" variant="dark">
+    <Container
+      style={{
+        margin: `0 auto`,
+        maxWidth: 960,
+      }}
+    >
+      <Navbar.Brand>Nat Sae Tang</Navbar.Brand>
       <Nav>
-        <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="/page-2">Projects</Nav.Link>
+        <Link className="nav-link" to="/">
+          Home
+        </Link>
+        <Link className="nav-link" to="/projects">
+          Projects
+        </Link>
       </Nav>
     </Container>
   </Navbar>

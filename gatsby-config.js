@@ -1,3 +1,5 @@
+const path = require(`path`)
+
 module.exports = {
   pathPrefix: "/nutidol",
   siteMetadata: {
@@ -8,7 +10,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -18,6 +19,8 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
