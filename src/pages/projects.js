@@ -11,6 +11,8 @@ import fifth from "../images/5.jpg"
 import sixth from "../images/6.jpg"
 import seventh from "../images/7.jpg"
 import eighth from "../images/8.jpg"
+import ninth from "../images/9.jpg"
+
 import { Link } from "gatsby"
 
 import { Card, Row, Col, Container, Image, Button } from "react-bootstrap"
@@ -29,6 +31,33 @@ const SecondPage = () => (
       <Container className="text-center">
         <Row xs={1} md={2} className="g-4 py-4">
         <Col>
+        <Card bg="light">
+              <Image
+                src={ninth}
+                classname="class-img-top"
+                alt="SG"
+                fluid
+              />
+              <Card.Body>
+                <Card.Title>Evaluating StyleGAN variants</Card.Title>
+                <Card.Text>
+                To discover effective methods for evaluating the outputs of a generative model. 
+                Also, this project aims to see the correlation between the existing quantitative metrics and human perception.
+                </Card.Text>
+                <Link to="/p-sg">
+                  <Button variant="outline-dark">Read more</Button>
+                </Link>
+                <Button
+                  variant="outline-dark"
+                  className="m-1"
+                  href="https://www.youtube.com/embed/Zn6SmSWUXts"
+                >
+                  Watch overview
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
             <Card bg="light">
               <Image
                 src={zero}
