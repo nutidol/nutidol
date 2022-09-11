@@ -56,11 +56,10 @@ const IndexPage = ({ data }) => (
           <li>Korean Entertainment (Dramas, Varieties, Music)</li>
         </ul>
         <p>
-          I may talk about some of these things in my
+          I may talk about some of these things in my{" "}
           <Link to="https://www.youtube.com/channel/UCbec0KgIKzwZ_NizYMh14MQ">
-            {" "}
             youtube
-          </Link>
+          </Link>{" "}
           and my <Link to="/projects"> projects</Link>, so make sure to check
           that out.
         </p>

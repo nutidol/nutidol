@@ -1,6 +1,8 @@
 import * as React from "react"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
+import poster from "../images/czavcd.png"
+import { Image } from "react-bootstrap"
 
 const cookBurnPage = () => (
   <div>
@@ -94,6 +96,12 @@ const cookBurnPage = () => (
         dissatisfaction could also occur due to the misbehaviour of the worker
         which comes from various factors.
       </p>
+      <Image
+        src={poster}
+        className="class-img-top px-5"
+        alt="poster"
+        fluid
+      />
 
       <h3 className="pb-2">Objective</h3>
       <p>

@@ -1,6 +1,7 @@
 import * as React from "react"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
+import zero from "../images/0.jpg"
 import first from "../images/1.jpg"
 import second from "../images/2.jpg"
 import secondpointfive from "../images/2.5.png"
@@ -27,6 +28,33 @@ const SecondPage = () => (
     >
       <Container className="text-center">
         <Row xs={1} md={2} className="g-4 py-4">
+        <Col>
+            <Card bg="light">
+              <Image
+                src={zero}
+                classname="class-img-top"
+                alt="DDPG"
+                fluid
+              />
+              <Card.Body>
+                <Card.Title>DDPG Bipedal Walker</Card.Title>
+                <Card.Text>
+                A reinforcement learning algorithm for the BipedalWalker problem. 
+                The DDPG agent teaches the walker to walk through rough terrain in a thousand episodes.
+                </Card.Text>
+                <Link to="/p-ddpg">
+                  <Button variant="outline-dark">Read more</Button>
+                </Link>
+                <Button
+                  variant="outline-dark"
+                  className="m-1"
+                  href="https://www.youtube.com/watch?v=TDYcXUJmAB4"
+                >
+                  Watch demo
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
           <Col>
             <Card bg="light">
               <Image
