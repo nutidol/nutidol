@@ -35,10 +35,10 @@ const IndexPage = ({ data }) => (
           Hi!! My name is Nattharika Sae Tang and as you can probably guess from
           my long name, I am Thai. Most people call me by my nickname “Natt”.
           Here are some facts about me. I went to high school at Assumption
-          Convent School (ASC101), Bangkok, Thailand, then spent my sophomore
+          Convent School, Bangkok, Thailand, then spent my sophomore
           year at Glendale High School, Springfield, Missouri, USA. I recieved
           B.S. in Information and Communication Engineering at Chulalongkorn
-          University, Bangkok, Thailand. Currently, I am pursuing Master’s
+          University, Bangkok, Thailand. I, then finished Master’s
           degree in Data Science at the University of Bath, Somerset, England.
         </p>
         {/* <p className="py-1">
@@ -53,7 +53,7 @@ const IndexPage = ({ data }) => (
           <li>Languages</li>
           <li>Drawing and Editing</li>
           <li>Sports like yoga, pilates, and ballet</li>
-          <li>Korean Entertainment (Dramas, Varieties, Music)</li>
+          <li>Korean Entertainment (Dramas, Varieties, Music, etc.)</li>
         </ul>
         <p>
           I may talk about some of these things in my{" "}
