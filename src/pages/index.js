@@ -38,7 +38,7 @@ const IndexPage = ({ data }) => (
           Convent School, Bangkok, Thailand, then spent my sophomore
           year at Glendale High School, Springfield, Missouri, USA. I recieved
           B.S. in Information and Communication Engineering at Chulalongkorn
-          University, Bangkok, Thailand. I, then completed Master" ` "s
+          University, Bangkok, Thailand. I, then completed Master's
           degree in Data Science at the University of Bath, Somerset, England.
         </p>
         {/* <p className="py-1">
