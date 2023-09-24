@@ -33,12 +33,12 @@ const IndexPage = ({ data }) => (
       <div className="py-3">
         <p className="py-1">
           Hi!! My name is Nattharika Sae Tang and as you can probably guess from
-          my long name, I am Thai. Most people call me by my nickname “Natt”.
+          my long name, I am Thai. Most people call me by my nickname “Nat”.
           Here are some facts about me. I went to high school at Assumption
           Convent School, Bangkok, Thailand, then spent my sophomore
           year at Glendale High School, Springfield, Missouri, USA. I recieved
           B.S. in Information and Communication Engineering at Chulalongkorn
-          University, Bangkok, Thailand. I, then completed Master's
+          University, Bangkok, Thailand. I, then, completed Master's
           degree in Data Science at the University of Bath, Somerset, England.
         </p>
         {/* <p className="py-1">
